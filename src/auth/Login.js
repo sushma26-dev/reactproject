@@ -48,7 +48,7 @@ function Login() {
         ((userName === items.username) && (password === items.password)) ?
           sessionStorage.setItem('loginDetails', JSON.stringify(total)) : console.log("invalid user");
         ((userName === items.username) && (password === items.password)) &&
-          navigate("/dashboard");
+          navigate("/loginpage/dashboard");
       })
 
 
@@ -74,7 +74,7 @@ function Login() {
             </div>
           </div>
           <button type="submit" className="btn btn-primary" onClick={checkRegister}>Sign in</button>
-          <p className="signup">Create Account <a href="#/register">Click Here</a></p>
+          <p className="signup">Create Account <a href="#/loginpage/register">Click Here</a></p>
         </form>
       </div>
 

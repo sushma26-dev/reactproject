@@ -52,7 +52,7 @@ function RegisterPage() {
         console.log("updated state", updatedEmpListPush);
         localStorage.setItem("userList", JSON.stringify(updatedEmpListPush));
         event.preventDefault();
-        navigate("/login");
+        navigate("/loginpage/login");
         //resetForm();
       }
     }
@@ -86,7 +86,7 @@ function RegisterPage() {
             <h3>Registration Page</h3>
           </div>
           <div className='col-9 formreg'>
-            <p className="heading1">Registration Page</p>
+            <h1 className="heading1">Registration Page</h1>
             <div className="register">
               <form className="row g-3">
                 <div className="col-md-12">
@@ -112,7 +112,7 @@ function RegisterPage() {
 
                 <div className="col-6">
                   <button type="submit" className="btn btn-primary" onClick={addEmployee}>Sign in</button>
-                  <p className="signup">Already Have an Account <a href="#/login">Click Here</a></p>
+                  <p className="signup">Already Have an Account <a href="#/loginpage/login">Click Here</a></p>
                 </div>
               </form>
             </div>

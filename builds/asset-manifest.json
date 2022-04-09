@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/reactproject/builds/static/css/main.fc3f2d33.css",
-    "main.js": "/reactproject/builds/static/js/main.e97ef9d6.js",
-    "static/js/695.c7078c0a.chunk.js": "/reactproject/builds/static/js/695.c7078c0a.chunk.js",
+    "main.css": "/reactproject/builds/static/css/main.f5993c96.css",
+    "main.js": "/reactproject/builds/static/js/main.32e76637.js",
+    "static/js/695.d67f6c95.chunk.js": "/reactproject/builds/static/js/695.d67f6c95.chunk.js",
     "static/js/787.4641eef9.chunk.js": "/reactproject/builds/static/js/787.4641eef9.chunk.js",
     "static/media/img1.jpg": "/reactproject/builds/static/media/img1.3388aa914584f8604a0f.jpg",
     "index.html": "/reactproject/builds/index.html",
-    "main.fc3f2d33.css.map": "/reactproject/builds/static/css/main.fc3f2d33.css.map",
-    "main.e97ef9d6.js.map": "/reactproject/builds/static/js/main.e97ef9d6.js.map",
-    "695.c7078c0a.chunk.js.map": "/reactproject/builds/static/js/695.c7078c0a.chunk.js.map",
+    "main.f5993c96.css.map": "/reactproject/builds/static/css/main.f5993c96.css.map",
+    "main.32e76637.js.map": "/reactproject/builds/static/js/main.32e76637.js.map",
+    "695.d67f6c95.chunk.js.map": "/reactproject/builds/static/js/695.d67f6c95.chunk.js.map",
     "787.4641eef9.chunk.js.map": "/reactproject/builds/static/js/787.4641eef9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc3f2d33.css",
-    "static/js/main.e97ef9d6.js"
+    "static/css/main.f5993c96.css",
+    "static/js/main.32e76637.js"
   ]
 }

@@ -43,7 +43,7 @@ function Appnew() {
       <nav className="navbar navbar-expand-lg ">
         <div className="container">
           {/* <marquee width="30%" direction="left" height="60px"> */}
-            <span style={{ color: 'white', fontSize: '1.6rem' }}>AMADIS Welcomes You!!</span>
+            <span style={{ color: 'white', fontSize: '1.6rem' }}><h1>AMADIS</h1> Welcomes You</span>
           {/* </marquee> */}
           <div id="navbarResponsive">
             <ul className="navbar-nav">

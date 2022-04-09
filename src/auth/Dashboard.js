@@ -3,7 +3,7 @@ function Dashboard() {
   const userLoginDetails = JSON.parse(sessionStorage.getItem('loginDetails'));
   if (userLoginDetails === null) {
     console.log("within 11");
-    window.location.href = "#/login";
+    window.location.href = "#/loginpage/login";
 
     return (
       <div>gggg</div>
@@ -20,7 +20,7 @@ function Dashboard() {
 
     function logout() {
       const rem = sessionStorage.removeItem('loginDetails');
-      window.location.href = "#/login";
+      window.location.href = "#/loginpage/login";
     }
 
     return (

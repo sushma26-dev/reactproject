@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import './App.css'
 function Home() {
     const menuItems = [
-        { key: "crud", "displayName": "CRUD", isDefaut: true },
-        { key: "login", "displayName": "LOGIN", isDefaut: false },
+        { key: "crud/crudForm", "displayName": "CRUD", isDefaut: true },
+        { key: "loginpage/login", "displayName": "LOGIN", isDefaut: false },
     ];
 
 

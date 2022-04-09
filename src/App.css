@@ -48,9 +48,9 @@
   padding-top: 40px;
 }
 .heading1{
-  color: cyan;
+  color: black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
   padding-top: 25px;
 }
 .loginForm{
@@ -77,7 +77,7 @@
   border-radius: 50px;
 }
 .welcome{
-  background-color: #61dafb;
+  background-color: #9261fb;;
   padding-top: 100px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-style: oblique;
@@ -86,7 +86,7 @@ font-variant: small-caps;
 
 }
 .formreg{
-  background-color: rgb(224, 149, 36);
+  background-color: #6d7072;
 }
 h2,h3{
   text-align: center;
