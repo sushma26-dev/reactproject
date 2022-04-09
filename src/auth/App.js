@@ -18,7 +18,10 @@ function App() {
               <li className='nav-item mx-0 mx-lg-1' >
                 <Link to={'/'} className='li' style={{ color: 'white' }}>Home</Link>
               </li>
-
+              
+                <li className='nav-item mx-0 mx-lg-1' >
+                  <Link to={'/loginpage/dashboard'} className='li' style={{ color: 'white' }}>Dashboard</Link>
+                </li>
 
             </ul>
           </div>

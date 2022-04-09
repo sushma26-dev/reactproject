@@ -63,15 +63,23 @@ function RegisterPage() {
         <nav className="navbar navbar-expand-lg ">
           <div className="container">
             {/* <marquee width="30%" direction="left" height="60px"> */}
-              <span style={{ color: 'white', fontSize: '1.6rem' }}>AMADIS Welcomes You!!</span>
+              <span style={{ color: 'white', fontSize: '1.6rem' }}>AMADIS </span>
             {/* </marquee> */}
             <div id="navbarResponsive">
               <ul className="navbar-nav">
                 <li className='nav-item mx-0 mx-lg-1' >
                   <Link to={'/'} className='li' style={{ color: 'white' }}>Home</Link>
                 </li>
-
-
+                <li className='nav-item mx-0 mx-lg-1' >
+                  <Link to={'/loginpage/login'} className='li' style={{ color: 'white' }}>Login</Link>
+                </li>
+                <li className='nav-item mx-0 mx-lg-1' >
+                  <Link to={'/loginpage/register'} className='li' style={{ color: 'white' }}>Register</Link>
+                </li>
+                <li className='nav-item mx-0 mx-lg-1' >
+                  <Link to={'/loginpage/dashboard'} className='li' style={{ color: 'white' }}>Dashboard</Link>
+                </li>
+                
               </ul>
             </div>
           </div>
@@ -103,7 +111,7 @@ function RegisterPage() {
                 </div>
                 <div className="col-12">
                   <label htmlFor="inputAddress" className="form-label">Username</label>
-                  <input type="text" className="form-control" id="inputAddress" placeholder="a@gmail.com" required name={username} onChange={e => setUsername(e.target.value)} />
+                  <input type="text" className="form-control" id="inputAddress" placeholder="" required name={username} onChange={e => setUsername(e.target.value)} />
                 </div>
                 <div className="col-md-12">
                   <label htmlFor="inputPassword4" className="form-label">Password</label>
