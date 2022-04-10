@@ -6,9 +6,10 @@ import Dashboard from './auth/Dashboard';
 import Invalid from './Invalid';
 import Home from './Home';
 import RoutingPath from './RoutingPath';
+// import AppProduct from './rxjs/AppProduct';
 //lazy load
 const App = React.lazy(() => import("./auth/App"));
-
+const AppProduct = React.lazy(() => import("./rxjs/AppProduct"));
 function Routing() {
 
 
@@ -20,7 +21,7 @@ function Routing() {
 
                 <Routes>
                     <Route path='/crud' element={<RoutingPath />} >
-                    <Route path='crudForm' element={<Appnew />} />
+                        <Route path='crudForm' element={<Appnew />} />
                     </Route>
                     {/* <Route path='/register' element={<RegisterPage />} />
                     <Route path='/dashboard' element={<Dashboard />} /> */}
@@ -32,6 +33,19 @@ function Routing() {
                         } />
                         <Route path='register' element={<RegisterPage />} />
                         <Route path='dashboard' element={<Dashboard />} />
+                    </Route>
+                    <Route path='/rxjs' element={<RoutingPath />}>
+                        <Route path='cart' element={
+                            <React.Suspense fallback={<h2>Loading....</h2>}>
+                                <AppProduct />
+                            </React.Suspense>
+                        } />
+                        {/* <Route path='/Product' element={
+                            <React.Suspense fallback={<h2>Loading....</h2>}>
+                                <Product />
+                            </React.Suspense>
+                        } /> */}
+                        
                     </Route>
 
 

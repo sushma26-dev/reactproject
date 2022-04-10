@@ -20,7 +20,7 @@ function Login() {
 
   const userLoginDetails = JSON.parse(sessionStorage.getItem('loginDetails'));
   if (userLoginDetails !== null) {
-    window.location.href = "#/dashboard";
+    window.location.href = "#/loginpage/dashboard";
     return (
       <div></div>
     );
