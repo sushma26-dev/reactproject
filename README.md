@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 link
 
-https://sushma26-dev.github.io/reactproject/builds/index.html
+https://sushma26-dev.github.io/reactproject/builds/

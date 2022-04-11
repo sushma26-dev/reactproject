@@ -9,7 +9,7 @@ import RoutingPath from './RoutingPath';
 // import AppProduct from './rxjs/AppProduct';
 //lazy load
 const App = React.lazy(() => import("./auth/App"));
-const AppProduct = React.lazy(() => import("./rxjs/AppProduct"));
+// const AppProduct = React.lazy(() => import("./rxjs/AppProduct"));
 function Routing() {
 
 
@@ -23,8 +23,7 @@ function Routing() {
                     <Route path='/crud' element={<RoutingPath />} >
                         <Route path='crudForm' element={<Appnew />} />
                     </Route>
-                    {/* <Route path='/register' element={<RegisterPage />} />
-                    <Route path='/dashboard' element={<Dashboard />} /> */}
+                    
                     <Route path='/loginpage' element={<RoutingPath />}>
                         <Route path='login' element={
                             <React.Suspense fallback={<h2>Loading....</h2>}>
@@ -34,19 +33,19 @@ function Routing() {
                         <Route path='register' element={<RegisterPage />} />
                         <Route path='dashboard' element={<Dashboard />} />
                     </Route>
-                    <Route path='/rxjs' element={<RoutingPath />}>
+                    {/* <Route path='/rxjs' element={<RoutingPath />}>
                         <Route path='cart' element={
                             <React.Suspense fallback={<h2>Loading....</h2>}>
                                 <AppProduct />
                             </React.Suspense>
                         } />
-                        {/* <Route path='/Product' element={
+                        <Route path='/Product' element={
                             <React.Suspense fallback={<h2>Loading....</h2>}>
                                 <Product />
                             </React.Suspense>
-                        } /> */}
+                        } /> 
                         
-                    </Route>
+                    </Route> */}
 
 
                     <Route path='*' element={<Invalid />} />
