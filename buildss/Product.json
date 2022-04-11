@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,"name":"laptop","price":50000,"completed":false
+    },
+    {
+        "id":2,"name":"watch","price":4000,"completed":false
+    },
+    {
+        "id":3,"name":"glass","price":1500,"completed":false
+    },
+    {
+        "id":4,"name":"Ipad","price":25000,"completed":false
+    }
+]
+
