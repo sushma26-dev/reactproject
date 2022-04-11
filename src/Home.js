@@ -5,7 +5,7 @@ function Home() {
     const menuItems = [
         { key: "crud/crudForm", "displayName": "CRUD", isDefaut: true },
         { key: "loginpage/login", "displayName": "LOGIN", isDefaut: false },
-        // { key: "rxjs/cart", "displayName": "RXJS", isDefaut: false }
+        { key: "rxjs/cart", "displayName": "RXJS", isDefaut: false }
     ];
 
 
