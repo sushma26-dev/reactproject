@@ -49,10 +49,10 @@ function Cart() {
                 </thead>
                 <tbody>
                     {
-                        data.slice(0, 3).map((emp, i) =>
+                        data.map((emp, i) =>
                             <tr key={"keyName" + i}>
                                 <td scope="row">{emp.id}</td>
-                                <td>{emp.title}</td>
+                                <td>{emp.name}</td>
                                 <td><input type="checkbox" checked={emp.completed} onClick={e => sendProductInfo(emp, e.target.checked)} /></td>
                                 {/* <td>
 

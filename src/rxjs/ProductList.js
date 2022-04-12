@@ -106,11 +106,11 @@ function ProductList() {
                 <tbody>
 
                     {
-                        ss.slice(0, 3).map((emp, i) =>
+                        ss.map((emp, i) =>
                             <tr key={"keyName" + i} className={emp.completed === true ? "lin" : null}>
                                 <td><input type="checkbox" checked={emp.completed} onClick={e => sendProductInfo(emp, e.target.checked)} /></td>
                                 <td>{emp.id}</td>
-                                <td>{emp.title}</td>
+                                <td>{emp.name}</td>
                                 
                             </tr>
                         )
