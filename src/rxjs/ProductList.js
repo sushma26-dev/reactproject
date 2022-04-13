@@ -76,7 +76,6 @@ function ProductList() {
                         <th scope="col">Id</th>
                         <th scope="col"> Name</th>
                         <th scope="col"> Price</th>
-                        <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
