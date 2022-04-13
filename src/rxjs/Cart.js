@@ -13,6 +13,15 @@ function Cart() {
         });
     }, []);
 
+    // useEffect(()=>{
+    //     const namesToDeleteSet = new Set(deleteData);
+    //     const newArr = data.filter((name) => {
+    //         // return those elements not in the namesToDeleteSet
+    //         return !namesToDeleteSet.has(name);
+    //       });
+    //       console.log(newArr);
+    // })
+
     
     //data = data.filter(ar => !deleteData.find(rm => (rm.name === ar.name && ar.id === rm.id) ));
 
@@ -49,10 +58,10 @@ function Cart() {
                 </thead>
                 <tbody>
                     {
-                        data.map((emp, i) =>
+                        data.slice(0, 3).map((emp, i) =>
                             <tr key={"keyName" + i}>
                                 <td scope="row">{emp.id}</td>
-                                <td>{emp.name}</td>
+                                <td>{emp.title}</td>
                                 <td><input type="checkbox" checked={emp.completed} onClick={e => sendProductInfo(emp, e.target.checked)} /></td>
                                 {/* <td>
 

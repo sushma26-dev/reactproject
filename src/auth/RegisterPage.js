@@ -7,7 +7,7 @@ function RegisterPage() {
   const [email, setMail] = useState();
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
-  // const [userList,setRegList]=useState([]);
+  const [userList,setRegList]=useState([]);
 
   const navigate = useNavigate();
   const userLoginDetails = JSON.parse(sessionStorage.getItem('loginDetails'));
@@ -37,9 +37,15 @@ function RegisterPage() {
         alert("Please enter Password");
       }
       else {
-        var exitData = JSON.parse(localStorage.getItem("userList"));
+        if(JSON.parse(localStorage.getItem("userList"))){
+          var exitData = JSON.parse(localStorage.getItem("userList"));
         var updatedEmpListPush = JSON.parse(JSON.stringify(exitData));
-
+        }
+        else{
+        
+        // var exitData = JSON.parse(localStorage.getItem(userList));
+        var updatedEmpListPush = JSON.parse(JSON.stringify(userList));
+      }
         updatedEmpListPush.push({
           regname: regname,
           number: number,
@@ -48,16 +54,16 @@ function RegisterPage() {
           password: password
 
         });
-        // setRegList(updatedEmpListPush);
+        setRegList(updatedEmpListPush);
         console.log("updated state", updatedEmpListPush);
         localStorage.setItem("userList", JSON.stringify(updatedEmpListPush));
         event.preventDefault();
-        navigate("/loginpage/login");
+        navigate("/loginpage/login");alert(userList);
         //resetForm();
       }
     }
 
-    console.log("name is" + regname);
+    
     return (
       <div>
         <nav className="navbar navbar-expand-lg ">
