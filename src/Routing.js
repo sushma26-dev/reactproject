@@ -61,6 +61,7 @@ function Routing() {
 
                     <Route path='*' element={<Invalid />} />
                     <Route path='/' element={<Home />} />
+                    <Route path='/home' element={<Home />} />
 
 
 
