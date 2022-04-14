@@ -10,6 +10,15 @@
     },
     {
         "id":4,"name":"Ipad","price":25000,"completed":false
+    },
+    {
+        "id":5,"name":"Bluetooth Headset","price":2000,"completed":false
+    },
+    {
+        "id":6,"name":"IPhone","price":125000,"completed":false
+    },
+    {
+        "id":7,"name":"Samsung Galaxy","price":75000,"completed":false
     }
 ]
 
