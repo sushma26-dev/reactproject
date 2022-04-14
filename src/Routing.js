@@ -6,10 +6,12 @@ import Dashboard from './auth/Dashboard';
 import Invalid from './Invalid';
 import Home from './Home';
 import RoutingPath from './RoutingPath';
+// import ReduxApp from './redux/ReduxApp';
 // import AppProduct from './rxjs/AppProduct';
 //lazy load
 const App = React.lazy(() => import("./auth/App"));
 const AppProduct = React.lazy(() => import("./rxjs/AppProduct"));
+const ReduxProviderComp = React.lazy(() => import("./redux/Provider"));
 function Routing() {
 
 
@@ -44,6 +46,15 @@ function Routing() {
                                 <Product />
                             </React.Suspense>
                         } />  */}
+                        
+                    </Route>
+                    <Route path='/redux' element={<RoutingPath />}>
+                        <Route path='todo' element={
+                            <React.Suspense fallback={<h2>Loading....</h2>}>
+                                <ReduxProviderComp />
+                            </React.Suspense>
+                        } />
+                       
                         
                     </Route>
 

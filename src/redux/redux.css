@@ -1,0 +1,18 @@
+.lin{
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.reduxDiv{
+    
+    background-color: white;
+}
+.btn2{
+    border-radius: 10px;
+    border: 2px solid #0066ff;
+    background-color: #00a0fc;
+  }  
+.todostyle{
+    background-color: rgb(164, 86, 236);
+    padding-top: 90px;
+    padding-bottom: 140px;
+}

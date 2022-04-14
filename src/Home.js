@@ -5,7 +5,8 @@ function Home() {
     const menuItems = [
         { key: "crud/crudForm", "displayName": "CRUD", isDefaut: true },
         { key: "loginpage/login", "displayName": "LOGIN", isDefaut: false },
-        { key: "rxjs/cart", "displayName": "RXJS", isDefaut: false }
+        { key: "rxjs/cart", "displayName": "RXJS", isDefaut: false },
+        { key: "redux/todo", "displayName": "REDUX", isDefaut: false }
     ];
 
 
@@ -15,7 +16,7 @@ function Home() {
             <nav className="navbar navbar-expand-lg ">
                 <div className="container">
                     {/* <marquee width="30%" direction="up" height="60px"> */}
-                        <span style={{ color: 'white', fontSize: '1.6rem' }}><h1>AMADIS</h1> Welcomes You</span>
+                        <span style={{ color: 'white', fontSize: '1.3rem' }}><h1>AMADIS</h1> Welcomes You</span>
                     {/* </marquee> */}
                     <div id="navbarResponsive">
                         <ul className="navbar-nav">
