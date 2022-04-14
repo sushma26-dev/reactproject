@@ -41,7 +41,7 @@ function Cart() {
                         <th scope="col">Id</th>
                         <th scope="col"> Name</th>
                         <th scope="col"> Price</th>
-                        <th scope="col">Action</th>
+                        {/* <th scope="col">Action</th> */}
                     </tr>
                 </thead>
                 <tbody>
@@ -51,7 +51,7 @@ function Cart() {
                                 <td scope="row">{emp.id}</td>
                                 <td>{emp.name}</td>
                                 <td>{emp.price}</td>
-                                <td><input type="checkbox" checked={emp.completed} onClick={e => sendProductInfo(emp)} /></td>
+                                {/* <td><input type="checkbox" checked={emp.completed} onClick={e => sendProductInfo(emp)} /></td> */}
                                 
                             </tr>
                         )

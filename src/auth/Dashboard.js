@@ -32,7 +32,7 @@ function Dashboard() {
               Welcome {userLoginDetails.username}</h3>
             <ul className="nav flex-column">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#/dashboard">Dashboard</a>
+                <a className="nav-link active" aria-current="page" href="#/loginpage/dashboard">Dashboard</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">Home</a>
