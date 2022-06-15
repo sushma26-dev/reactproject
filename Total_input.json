@@ -1,0 +1,23 @@
+[
+ {
+   "MetricName": "CpuPercentage",
+   "avg": "8.85705700291475",
+   "count": 33279,
+   "max": 77,
+   "min": 2
+ },
+ {
+   "MetricName": "MemoryPercentage",
+   "avg": "59.91085539164138",
+   "count": 33283,
+   "max": 126,
+   "min": 42
+ },
+ {
+   "MetricName": "CpuTime",
+   "avg": "0.15609696728646633",
+   "count": 50285,
+   "max": 3.782,
+   "min": 0
+ }
+]
