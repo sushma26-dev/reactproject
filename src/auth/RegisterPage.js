@@ -121,7 +121,7 @@ function RegisterPage() {
                 </div>
                 <div className="col-md-12">
                   <label htmlFor="inputPassword4" className="form-label">Password</label>
-                  <input type="password" className="form-control" id="inputPassword4" name={password} required onChange={e => setPassword(e.target.value)} />
+                  <input type="text" className="form-control" id="inputPassword4" name={password} required onChange={e => setPassword(e.target.value)} />
                 </div>
 
                 <div className="col-6">
